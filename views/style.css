@@ -1,47 +1,78 @@
 /* ---- reset ---- */
 body {
-    margin: 0;
-    font: normal 75% Arial, Helvetica, sans-serif;
+	margin: 0;
+	font: normal 75% Arial, Helvetica, sans-serif;
 }
-canvas {
-    display: block;
-    vertical-align: bottom;
-} /* ---- particles.js container ---- */
-#particles-js {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #323840;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
+
+#particles-js canvas {
+	display: flex;
+	z-index: -1;
+	vertical-align: auto;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+	background: radial-gradient(at left bottom, #099, #0c6, #3c3) no-repeat 50% 50%;
+}
+
+.section1 {
+	box-sizing: border-box;
+	text-transform: uppercase;
+	border: solid 3px;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 600;
+	background-clip: inherit;
+	filter: invert(1);
+	padding: 16px;
+	position: absolute;
+	height: fit-content;
+	max-height: fit-content;
+	top: 50%;
+	left: 50%;
+	width: fit-content;
+	max-width: fit-content;
+	text-align: center;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+
+.section2 {
+	box-sizing: border-box;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 300;
+	background-clip: inherit;
+	filter: invert(1);
+	padding: 16px;
+	position: absolute;
+	height: fit-content;
+	max-height: fit-content;
+	bottom: 0;
+	width: fit-content;
+	max-width: fit-content;
+	text-align: center;
+	margin-right: -100%;
+	/*transform: translate(-50%, -50%);*/
+	z-index: 1;
 }
 
 h1 {
-    box-sizing: border-box;
-    position: fixed;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 28px;
-    z-index: 50;
-    top: 50%;
-    left: 50%;
-    right: 0;
-    width: 300px;
-    margin: -28px 0 0 -150px;
-    text-align: center;
-    color: #fff;
-    padding: 10px 0px;
-    border: solid 3px #fff;
-    font-weight: 600;
-    text-transform: uppercase;
+	font-size: 43.636363636363636363636363636364pt;
 }
-.p{
-    color: #ffffff;
-    text-align: center;
-    position: absolute;
-    font-size: 20px;
+
+h2 {
+	font-size: 34.909090909090909090909090909091pt;
 }
-a{
-    color: white;
+
+a {
+	background-clip: inherit;
+	font-weight: 600;
+	filter: invert(1);
+}
+
+#hp {
+	background-clip: inherit;
+	font-weight: 600;
+	filter: invert(1);
+	z-index: 1;
 }
