@@ -1,6 +1,6 @@
 const express = require(`express`), app = express();
 app.set(`view engine`, `ejs`);
-app.set()
+app.set("", undefined)
 // serve static files from the `public` folder
 //app.use(express.static(__dirname + '/public'));
 app.get(`/`, (req, res) => res.render('index'));

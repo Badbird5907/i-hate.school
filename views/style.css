@@ -4,30 +4,29 @@ body {
 	font: normal 75% Arial, Helvetica, sans-serif;
 }
 
-canvas {
+#particles-js canvas {
 	display: flex;
-	vertical-align: bottom;
-}
-
-#particles-js {
+	z-index: -1;
+	vertical-align: auto;
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background-size: cover;
+	background-size: 100%;
 	background: radial-gradient(at left bottom, #099, #0c6, #3c3) no-repeat 50% 50%;
 }
 
-section {
+.section1 {
 	box-sizing: border-box;
 	text-transform: uppercase;
 	border: solid 3px;
 	font-family: 'Abril Fatface', cursive;
-	font-size: 32px;
-	background-clip: inherit;
 	font-weight: 600;
+	background-clip: inherit;
 	filter: invert(1);
 	padding: 16px;
 	position: absolute;
+	height: fit-content;
+	max-height: fit-content;
 	top: 50%;
 	left: 50%;
 	width: fit-content;
@@ -35,12 +34,34 @@ section {
 	text-align: center;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
+	z-index: 1;
 }
 
-.p {
-	font-size: 16px;
-	margin-top: 8px;
-	margin-left: 8px;
+.section2 {
+	box-sizing: border-box;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 300;
+	background-clip: inherit;
+	filter: invert(1);
+	padding: 16px;
+	position: absolute;
+	height: fit-content;
+	max-height: fit-content;
+	bottom: 0;
+	width: fit-content;
+	max-width: fit-content;
+	text-align: center;
+	margin-right: -100%;
+	/*transform: translate(-50%, -50%);*/
+	z-index: 1;
+}
+
+h1 {
+	font-size: 43.636363636363636363636363636364pt;
+}
+
+h2 {
+	font-size: 34.909090909090909090909090909091pt;
 }
 
 a {
@@ -48,8 +69,10 @@ a {
 	font-weight: 600;
 	filter: invert(1);
 }
-#hp{
+
+#hp {
 	background-clip: inherit;
 	font-weight: 600;
 	filter: invert(1);
+	z-index: 1;
 }

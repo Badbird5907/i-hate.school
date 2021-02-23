@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <title>I Hate School</title>
     <link rel="stylesheet" href="style.css">
@@ -12,124 +12,125 @@
 <body>
 <!-- particles.js container -->
 <div id="particles-js">
-    <section id>
-        <h1>Coming soon!</h1>
-        <h2>We all hate school!</h2>
-    </section>
-    <p class="p" id="hp">Project by <a href="https://badbird5907.net/">Badbird5907</a>, with contributions from <a
-                href="https://github.com/Chinay-Domitrix">Chinay</a></p>
-</div>
-<!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-</body>
-<script>
-	/* ---- particles.js config ---- */
-	particlesJS("particles-js", {
-		"interactivity": {
-			"detect_on": "canvas",
-			"events": {
-				"onclick": {
-					"enable": true,
-					"mode": "push"
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+		/* ---- particles.js config ---- */
+		particlesJS("particles-js", {
+			"interactivity": {
+				"events": {
+					"onclick": {
+						"enable": true,
+						"mode": "push"
+					},
+					"onhover": {
+						"enable": true,
+						"mode": "grab"
+					},
+					"resize": true
 				},
-				"onhover": {
-					"enable": true,
-					"mode": "grab"
-				},
-				"resize": true
+				"modes": {
+					"bubble": {
+						"distance": 256,
+						"size": 64,
+						"duration": 2,
+						"opacity": 8,
+						"speed": 4
+					},
+					"grab": {
+						"distance": 128,
+						"line_linked": {
+							"opacity": 1
+						}
+					},
+					"push": {
+						"particles_nb": 4
+					},
+					"remove": {
+						"particles_nb": 2
+					},
+					"repulse": {
+						"distance": 32
+					}
+				}
 			},
-			"modes": {
-				"bubble": {
+			"particles": {
+				"line_linked": {
+					"enable": true,
 					"distance": 256,
-					"size": 64,
-					"duration": 2,
-					"opacity": 8,
-					"speed": 4
+					"color": "#fff",
+					"opacity": 0.5,
+					"width": 1
 				},
-				"grab": {
-					"distance": 128,
-					"line_linked": {
-						"opacity": 1
+				"move": {
+					"enable": true,
+					"speed": 4,
+					"direction": "none",
+					"random": true,
+					"straight": false,
+					"out_mode": "out",
+					"bounce": false,
+					"attract": {
+						"enable": false,
+						"rotateX": 512,
+						"rotateY": 1024
 					}
 				},
-				"push": {
-					"particles_nb": 4
+				"number": {
+					"value": 128,
+					"density": {
+						"enable": true,
+						"value_area": 2048
+					}
 				},
-				"remove": {
-					"particles_nb": 2
+				"opacity": {
+					"value": 1,
+					"random": false,
+					"anim": {
+						"enable": false,
+						"speed": 4,
+						"opacity_min": 0.125,
+						"sync": false
+					}
 				},
-				"repulse": {
-					"distance": 512,
-					"duration": 0.5
-				}
-			}
-		},
-		"particles": {
-			"line_linked": {
-				"enable": true,
-				"distance": 256,
-				"color": "fff",
-				"opacity": 0.5,
-				"width": 1
-			},
-			"move": {
-				"enable": true,
-				"speed": 4,
-				"direction": "none",
-				"random": true,
-				"straight": false,
-				"out_mode": "out",
-				"bounce": false,
-				"attract": {
-					"enable": false,
-					"rotateX": 512,
-					"rotateY": 1024
-				}
-			},
-			"number": {
-				"value": 128,
-				"density": {
-					"enable": true,
-					"value_area": 1024
-				}
-			},
-			"opacity": {
-				"value": 1,
-				"random": false,
-				"anim": {
-					"enable": false,
-					"speed": 4,
-					"opacity_min": 0.125,
-					"sync": false
-				}
-			},
-			"shape": {
-				"type": "circle",
-				"stroke": {
-					"width": 2,
-					"color": "#fff"
+				"shape": {
+					"type": "circle",
+					"stroke": {
+						"width": 2,
+						"color": "#fff"
+					},
+					"polygon": {
+						"nb_sides": 8
+					},
+					"image": {
+						"src": "img/github.svg",
+						"width": 128,
+						"height": 128
+					}
 				},
-				"polygon": {
-					"nb_sides": 8
-				},
-				"image": {
-					"src": "img/github.svg",
-					"width": 128,
-					"height": 128
+				"size": {
+					"value": 4,
+					"random": true,
+					"anim": {
+						"enable": true,
+						"speed": 1,
+						"size_min": 0.25,
+						"sync": false
+					}
 				}
 			},
-			"size": {
-				"value": 4,
-				"random": true,
-				"anim": {
-					"enable": false,
-					"speed": 16,
-					"size_min": 0.125,
-					"sync": false
-				}
-			}
-		},
-		"retina_detect": true
-	});
-</script>
+			"retina_detect": true
+		});
+    </script>
+    <section>
+        <section class="section1">
+            <h1>Coming soon!</h1>
+            <h2>We all hate school!</h2></section>
+        <section class="section2">
+            <h3>Project by <a href="https://badbird5907.net/">Badbird5907</a>, with contributions from <a
+                        href="https://github.com/Chinay-Domitrix">Chinay</a></h3>
+        </section>
+    </section>
+</div>
+</body>
 </html>

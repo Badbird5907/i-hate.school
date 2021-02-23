@@ -8,16 +8,10 @@
 	</component>
 	<component name="ChangeListManager">
 		<list default="true" id="bed4a51a-2bf9-46e9-b2d6-b898359dde59" name="Default Changelist" comment="">
-			<change beforePath="$PROJECT_DIR$/.idea/i-hate.school.iml" beforeDir="false"
-			        afterPath="$PROJECT_DIR$/.idea/i-hate.school.iml" afterDir="false"/>
-			<change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false"
-			        afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false"/>
 			<change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false"
 			        afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false"/>
 			<change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js"
 			        afterDir="false"/>
-			<change beforePath="$PROJECT_DIR$/views/error.ejs" beforeDir="false"
-			        afterPath="$PROJECT_DIR$/views/error.ejs" afterDir="false"/>
 			<change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false"
 			        afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false"/>
 			<change beforePath="$PROJECT_DIR$/views/style.css" beforeDir="false"
@@ -96,8 +90,17 @@
 			<updated>1605937098532</updated>
 			<workItem from="1605937099698" duration="4969000"/>
 			<workItem from="1612993009945" duration="2260000"/>
-			<workItem from="1612996321231" duration="9082000"/>
+			<workItem from="1612996321231" duration="17214000"/>
+			<workItem from="1613066683886" duration="3734000"/>
 		</task>
+		<task id="LOCAL-00001" summary="mostly just changes to style.css, and some changes to JSON values in index.ejs">
+			<created>1613007797852</created>
+			<option name="number" value="00001"/>
+			<option name="presentableId" value="LOCAL-00001"/>
+			<option name="project" value="LOCAL"/>
+			<updated>1613007797852</updated>
+		</task>
+		<option name="localTasksCounter" value="2"/>
 		<servers/>
 	</component>
 	<component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +117,11 @@
 			</map>
 		</option>
 		<option name="oldMeFiltersMigrated" value="true"/>
+	</component>
+	<component name="VcsManagerConfiguration">
+		<MESSAGE value="mostly just changes to style.css, and some changes to JSON values in index.ejs"/>
+		<option name="LAST_COMMIT_MESSAGE"
+		        value="mostly just changes to style.css, and some changes to JSON values in index.ejs"/>
 	</component>
 	<component name="XSLT-Support.FileAssociations.UIState">
 		<expand/>
